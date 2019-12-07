@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Cards } from '../../lists/cards/cards';
 import { Card } from '../../lists/cards/card';
+import { CardsService } from './../../services/cards.service';
+import { RestaurantsService } from './../../services/restaurants.service';
 
 @Component({
   selector: 'app-features-page',
@@ -9,13 +10,31 @@ import { Card } from '../../lists/cards/card';
 })
 export class FeaturesPageComponent implements OnInit {
 
-  imgUrl: string = 'http://placeimg.com/640/360/any';
-  cards: Array<Card> = Cards;
+  //imgUrl: string = 'http://placeimg.com/640/360/any';
+  //cards: Card[];
+  restaurants;
 
-  constructor() { }
+  constructor(private restaurantsService: RestaurantsService) { }
+
+  // getCards(){
+  //   this.cards = this.cardService.getCards()
+  // }
 
   ngOnInit() {
-    console.log(this.cards)
+    // this.getCards();
+
+    this.test();
+
   }
+
+  test(){
+    this.restaurantsService.getRestaurants()
+      .subscribe((data:any) => {
+        console.log(data.restaurants)
+        this.restaurants = data.restaurants;
+    });
+    console.log(this.restaurants)
+  }
+
 
 }

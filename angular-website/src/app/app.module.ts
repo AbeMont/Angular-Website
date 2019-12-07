@@ -12,6 +12,9 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 // Routing Module
 import { AppRoutingModule } from './app-routing.module';
 
+// HTTP Modules
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,8 @@ import { AppRoutingModule } from './app-routing.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
