@@ -5,10 +5,28 @@
           <img [src]=restaurant.backgroundImageURL class="card-img-top" alt="Image">
           <div class="card-body">
             <h5 class="card-title">{{restaurant.name}}</h5>
-            <p class="card-text">Dallas Restaurant</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text mb-1">{{restaurant.location.address}}</p>
+            <p class="card-text mb-1">
+              {{restaurant.location.city}}, 
+              {{restaurant.location.state}} 
+              {{restaurant.location.postalCode}}</p>
+            <a 
+              href="#" 
+              class="btn btn-primary mr-3"
+              data-toggle="modal"
+              [attr.data-target] = "'#'+ modalID"
+              (click)= "getModalInfo(restaurant.favorites)"
+              >Popular Foods
+            </a>
+            <a href="#">View Restaurant</a>
+
           </div>
         </div>
     </div>
   </div>
 </section>
+
+<app-food-modal 
+[favoritesData]="favoritesModal"
+[ID] = "modalID"
+></app-food-modal>

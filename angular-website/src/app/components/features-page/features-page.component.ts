@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Card } from '../../lists/cards/card';
-import { CardsService } from './../../services/cards.service';
 import { RestaurantsService } from './../../services/restaurants.service';
+import { Favorites } from './../lists/favorites-modal/favorites-modal';
+
 
 @Component({
   selector: 'app-features-page',
@@ -10,30 +10,28 @@ import { RestaurantsService } from './../../services/restaurants.service';
 })
 export class FeaturesPageComponent implements OnInit {
 
-  //imgUrl: string = 'http://placeimg.com/640/360/any';
-  //cards: Card[];
-  restaurants;
+  restaurants: string = '';
+  favoritesModal: Favorites[];
+  modalID : any = "AmodalID";
+  
 
   constructor(private restaurantsService: RestaurantsService) { }
 
-  // getCards(){
-  //   this.cards = this.cardService.getCards()
-  // }
-
   ngOnInit() {
-    // this.getCards();
-
-    this.test();
-
+    this.getRestaurants();
   }
 
-  test(){
+  getModalInfo(modalData){
+    this.favoritesModal = modalData;
+    console.log(this.favoritesModal)
+  }
+
+  getRestaurants(){
     this.restaurantsService.getRestaurants()
       .subscribe((data:any) => {
-        console.log(data.restaurants)
-        this.restaurants = data.restaurants;
+        console.log(data)
+        this.restaurants = data;
     });
-    console.log(this.restaurants)
   }
 
 
