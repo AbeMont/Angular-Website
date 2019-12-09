@@ -1,4 +1,4 @@
-export const restaurants = [
+ [
         {
             "name": "Hopdoddy Burger Bar",
             "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
@@ -23,7 +23,24 @@ export const restaurants = [
                     "Addison, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Grilled Burger",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Turkey Burger",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Bean Burger",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Pappadeaux Seafood Kitchen",
@@ -49,7 +66,24 @@ export const restaurants = [
                     "Dallas, TX 75287",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Salmon",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Cajun",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Fried Chicken",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Yard House",
@@ -77,7 +111,24 @@ export const restaurants = [
                     "Dallas, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Yard 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Yard 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Yard 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Pluckers Wing Bar",
@@ -97,7 +148,24 @@ export const restaurants = [
                     "Addison, TX",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Pluckers 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Pluckers 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Pluckers 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Ramen Hakata",
@@ -123,7 +191,24 @@ export const restaurants = [
                     "Addison, TX 75001",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Ramen 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Ramen 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Ramen 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Gloria's",
@@ -151,7 +236,24 @@ export const restaurants = [
                     "Dallas, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Gloria's 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Glorias's 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Gloria's 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "The Social House",
@@ -175,7 +277,24 @@ export const restaurants = [
                     "Addison, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Social 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Social 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Social 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Chuy's",
@@ -196,7 +315,24 @@ export const restaurants = [
                     "Addison, TX 75001",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Chuy's 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Chuy's 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Chuy's 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Flying Saucer Draught Emporium",
@@ -221,7 +357,24 @@ export const restaurants = [
                     "Dallas, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Flying 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Flying 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Flying 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Whole Foods Market",
@@ -247,7 +400,24 @@ export const restaurants = [
                     "Addison, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Whole 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Whole 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Whole 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "The Londoner",
@@ -272,7 +442,24 @@ export const restaurants = [
                     "Addison, TX 75001",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Londoner 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Londoner 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Londoner 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "The Original Pancake House",
@@ -297,7 +484,24 @@ export const restaurants = [
                     "Dallas, TX 75254",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Pancake 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Pancake 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Pancake 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Thai Star",
@@ -322,7 +526,24 @@ export const restaurants = [
                     "Addison, TX 75001",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Thai 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Thai 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Thai 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "In-N-Out Burger",
@@ -348,7 +569,24 @@ export const restaurants = [
                     "Dallas, TX 75248",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Burger 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Burger 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Burger 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         },
         {
             "name": "Buffalo Wild Wings",
@@ -374,6 +612,23 @@ export const restaurants = [
                     "Dallas, TX 75254-6752",
                     "United States"
                 ]
-            }
+            },
+            "favorites": [
+                {
+                    "food": "Buffalo 1",
+                    "price": 5.25,
+                    "description": "Here is the best burger of the place."
+                },
+                {
+                    "food": "Buffalo 2",
+                    "price": 6.50,
+                    "description": "It has gobble gobble meat, delicious!"
+                },
+                {
+                    "food": "Buffalo 3",
+                    "price": 6.50,
+                    "description": "A good choice for vegetarians."
+                }
+            ]
         }
     ]

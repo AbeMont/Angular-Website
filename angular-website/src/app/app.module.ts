@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 // HTTP Modules
 import { HttpClientModule } from '@angular/common/http';
+import { FoodModalComponent } from './components/food-modal/food-modal.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     LandingPageComponent,
     FeaturesPageComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    FoodModalComponent
   ],
   imports: [
     BrowserModule,
