@@ -1,7 +1,12 @@
 <div *ngIf="restaurant">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8col-sm-12 offset-md-2">
+                <img [src]="restaurant[0].backgroundImageURL" class="w-100" />
+            </div>
+        </div>
+    </div>
     <p>The id for this restaurant is {{restaurant[0].name}}</p>
-    <a href="#" class="btn btn-primary mr-3">Go Back
-    </a>
+    <button class="btn btn-primary mr-3" (click)="goBack()">Go Back
+    </button>
 </div>
-
-

@@ -1,31 +1,21 @@
 <section class="container mt-5">
-  <div *ngIf="restaurants" class="row">
-    <div *ngFor="let restaurant of restaurants" class="col-md-4">
-        <div class="card mb-4">
-          <img [src]=restaurant.backgroundImageURL class="card-img-top" alt="Image">
-          <div class="card-body">
-            <h5 class="card-title">{{restaurant.name}}</h5>
-            <p class="card-text mb-1">{{restaurant.location.address}}</p>
-            <p class="card-text mb-1">
-              {{restaurant.location.city}}, 
-              {{restaurant.location.state}} 
-              {{restaurant.location.postalCode}}</p>
-            <a 
-              href="#" 
-              class="btn btn-primary mr-3"
-              data-toggle="modal"
-              [attr.data-target] = "'#'+ modalID"
-              (click)= "getModalInfo(restaurant.favorites)"
-              >Popular Foods
+    <div *ngIf="restaurants" class="row">
+        <div *ngFor="let restaurant of restaurants" class="col-md-4">
+            <div class="card mb-4">
+                <img [src]=restaurant.backgroundImageURL class="card-img-top" alt="Image">
+                <div class="card-body">
+                    <h5 class="card-title">{{restaurant.name}}</h5>
+                    <p class="card-text mb-1">{{restaurant.location.address}}</p>
+                    <p class="card-text mb-3">
+                        We offer the category of {{restaurant.category}}.
+                    </p>
+                    <a href="#" class="btn btn-primary mr-3" data-toggle="modal" [attr.data-target]="'#'+ modalID" (click)="getModalInfo(restaurant.favorites)">Customer Favorites
             </a>
-            <a routerLink="/detail/{{restaurant.id}}">View Restaurant</a>
-          </div>
+                    <a routerLink="/detail/{{restaurant.id}}">Restaurant Details</a>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
 </section>
 
-<app-food-modal 
-[favoritesData]="favoritesModal"
-[ID] = "modalID"
-></app-food-modal>
+<app-food-modal [favoritesData]="favoritesModal" [ID]="modalID"></app-food-modal>

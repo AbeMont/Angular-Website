@@ -36,4 +36,8 @@ export class RestaurantDetailComponent implements OnInit {
       console.log(this.restaurants)
   }
 
+  goBack(): void {
+    this.location.back();
+  }
+
 }
