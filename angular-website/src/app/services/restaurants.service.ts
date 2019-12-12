@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common//http';
-//import { Observable } from 'rxjs';
+import { catchError, map, tap } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
 
 
 @Injectable({
@@ -16,6 +17,13 @@ export class RestaurantsService {
 
   getRestaurants(){
     return this.http.get(this.url);
+  }
+
+  getRestaurant(id: number) {
+
+    const url = this.http.get(this.url);
+    console.log(url)
+
   }
 
 }

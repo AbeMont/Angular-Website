@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { FeaturesPageComponent } from './components/features-page/features-page.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { RestaurantDetailComponent } from './components/restaurant-detail/restaurant-detail.component';
 
 // Routing Module
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FoodModalComponent } from './components/food-modal/food-modal.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,8 @@ import { FoodModalComponent } from './components/food-modal/food-modal.component
     LandingPageComponent,
     FeaturesPageComponent,
     AboutUsComponent,
-    FoodModalComponent
+    FoodModalComponent,
+    RestaurantDetailComponent
   ],
   imports: [
     BrowserModule,
