@@ -1,12 +1,57 @@
 <div *ngIf="restaurant">
+
     <div class="container">
-        <div class="row">
-            <div class="col-md-8col-sm-12 offset-md-2">
-                <img [src]="restaurant[0].backgroundImageURL" class="w-100" />
-            </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center mt-3 mb-3">{{restaurant[0].name}}</h3>
         </div>
+      </div>
     </div>
-    <p>The id for this restaurant is {{restaurant[0].name}}</p>
-    <button class="btn btn-primary mr-3" (click)="goBack()">Go Back
-    </button>
+
+    <section class="bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 offset-md-2">
+              <img [src]="restaurant[0].backgroundImageURL" class="w-100" />
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h4 class="pt-3 pb-2 border-bottom">Location</h4>
+            <div class="mb-3 mt-3">
+                <h6 class="mb-0">{{restaurant[0].location.formattedAddress[0]}}</h6>
+                <h6 class="mb-0">{{restaurant[0].location.formattedAddress[1]}}</h6>
+                <h6 class="mb-0">{{restaurant[0].location.formattedAddress[2]}}</h6>
+            </div>
+            <h4>Menu</h4>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Food Item</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let menu of restaurant[0].menu">
+                  <th scope="row">1</th>
+                  <td>{{menu.item}}</td>
+                  <td>{{menu.price | currency}}</td>
+                  <td>{{menu.description}}</td>
+                </tr>
+              </tbody>
+            </table>
+          <button 
+          class="btn btn-primary mt-4 mb-4" 
+          (click)="goBack()">Go Back
+          </button>
+        </div>
+      </div>
+    </div>
+
 </div>

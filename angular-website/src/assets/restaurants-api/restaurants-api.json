@@ -3,6 +3,7 @@
          "name": "Hopdoddy Burger Bar",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/hopdoddy.png",
          "category": "Burgers",
+         "rating": 5,
          "contact": {
              "phone": "9723872337",
              "formattedPhone": "(972) 387-2337",
@@ -40,17 +41,40 @@
                  "description": "A good choice for vegetarians."
              }
          ],
-         "menu": [{
+         "menu": [
+            {
              "item": "The Classic Burger",
              "price": 7.50,
              "description": "Classic American Burger with bacon, cheese, and lettuce."
-         }]
+            },
+            {
+              "item": "Hickory Burger",
+              "price": 9.90,
+              "description": "Topped with cheddar cheese, hickory-smoked bacon and smoky bbq sauce."
+            },
+            {
+              "item": "Wild Swiss Mushroom Burger",
+              "price": 9.95,
+              "description": "Topped with melted Swiss, three types of mushrooms and caramelized onions."
+            },
+            {
+              "item": "Kalamata Olive Veggie Burger",
+              "price": 8.95,
+              "description": "Veggie burger topped with Kalamata olives, yogurt, green onions and feta cheese."
+            },
+            {
+              "item": "Fries",
+              "price": 5.75,
+              "description": "Served hot, fresh and ready to share."
+            }
+        ]
      },
      {
          "id": 2,
          "name": "Pappadeaux Seafood Kitchen",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pappadeaux.png",
          "category": "Seafood",
+         "rating": 9,
          "contact": {
              "phone": "9724479616",
              "formattedPhone": "(972) 447-9616",
@@ -72,7 +96,8 @@
                  "United States"
              ]
          },
-         "favorites": [{
+        "favorites": [
+             {
                  "food": "Salmon",
                  "price": 5.25,
                  "description": "Here is the best burger of the place."
@@ -87,13 +112,40 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
-         ]
+        ],
+        "menu": [{
+            "item": "Microbrew Battered Halibut",
+            "price": 13.70,
+            "description": "With sweet potato fries, house-made slaw & tartar sauce."
+          },
+          {
+            "item": "Sautéed Pistachio Crusted Salmon",
+            "price": 15.50,
+            "description": "With fresh berry salsa, wild rice, potato cake & sautéed snap peas."
+          },
+          {
+            "item": "Lobster Macaroni and Cheese",
+            "price": 17.50,
+            "description": "Bay shrimp and chunks of Maine lobster baked with gruyere, cheddar, and cotija cheese."
+          },
+          {
+            "item": "Sautéed Chicken and Shrimp",
+            "price": 18.95,
+            "description": "Organic chicken breast and bay shrimp in apricot glace with sage & walnuts."
+          },
+          {
+            "item": "Fried Calamari",
+            "price": 8.75,
+            "description": "With house-made marinara and salad greens."
+          }
+        ]
      },
      {
          "id": 3,
          "name": "Yard House",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/yardhouse.png",
          "category": "Tap House",
+         "rating": 4,
          "contact": {
              "phone": "9727164004",
              "formattedPhone": "(972) 716-4004",
@@ -132,6 +184,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Dirty Goose",
+             "price": 13.00,
+             "description": "Grey Goose vodka and a splash of olive juice, garnished with two blue cheese olives."
+           },
+           {
+             "item": "Summer Rain",
+             "price": 12.50,
+             "description": "Dry Fly vodka, fresh lime juice and a splash of dry vermouth with a sugar rim and lime twist."
+           },
+           {
+             "item": "The Brazilian",
+             "price": 13.00,
+             "description": "Brazilian cachaca, fresh strawberries, Martinique sugar cane syrup, grapefruit juice and lime."
+           },
+           {
+             "item": "Madame Alexander",
+             "price": 12.00,
+             "description": "Grey Goose Le Citron, Grand Marnier and Sauvignon Blanc, garnished with frozen white grapes."
+           },
+           {
+             "item": "Ultimate Margarita",
+             "price": 12.75,
+             "description": "Milagro select barrel reserve tequila, sugar cane syrup, triple sec and fresh lime juice."
+           }
          ]
      },
      {
@@ -140,6 +218,7 @@
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/pluckers.png",
          "category": "Wing Joint",
          "contact": null,
+         "rating": 6,
          "location": {
              "address": "5100 Beltline Rd",
              "lat": 32.95097877918451,
@@ -169,6 +248,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Hamburger",
+             "price": 8.00,
+             "description": "Served with mustard, mayo, lettuce, tomato, pickle, onion (add cheese for 50 cents)."
+           },
+           {
+             "item": "Bacon Cheeseburger",
+             "price": 12.50,
+             "description": "Fresh ground beef, hickory bacon, swiss, mozzarella, or American cheddar."
+           },
+           {
+             "item": "Blue Cheese burger",
+             "price": 9.00,
+             "description": "Fresh ground beef, blue cheese and sauteed onions."
+           },
+           {
+             "item": "Turkey Burger",
+             "price": 7.50,
+             "description": "With tomato, onion, lettuce and garlic mayo."
+           },
+           {
+             "item": "Veggie Burger",
+             "price": 12.75,
+             "description": "House-made vegan patty, with tomato, onion, lettuce and garlic mayo"
+           }
          ]
      },
      {
@@ -176,6 +281,7 @@
          "name": "Ramen Hakata",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/ramen_hakata.png",
          "category": "Japanese",
+         "rating": 8,
          "contact": {
              "phone": "9722472401",
              "formattedPhone": "(972) 247-2401",
@@ -212,6 +318,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Garlic Tonkotsu",
+             "price": 7.00,
+             "description": "Specialty extra-rich shoyu-flavored pork broth with lots of garlic."
+           },
+           {
+             "item": "Shoyu",
+             "price": 8.50,
+             "description": "Flavored with slightly sweet soy sauce from Yamaguchi prefecture in Japan."
+           },
+           {
+             "item": "Chicken Shoyu",
+             "price": 9.00,
+             "description": "All-chicken hearty broth with no pork, topped with chicken chashu."
+           },
+           {
+             "item": "Hong Kong Style Noodles",
+             "price": 9.50,
+             "description": "Thin egg noodles pan fried crispy served under the stir fry."
+           },
+           {
+             "item": "Chow Mein",
+             "price": 9.75,
+             "description": "Served with pan fried noodles, a softer noodle stir fried together in the dish"
+           }
          ]
      },
      {
@@ -219,6 +351,7 @@
          "name": "Gloria's",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/glorias.png",
          "category": "Mexican",
+         "rating": 5,
          "contact": {
              "phone": "9723878442",
              "formattedPhone": "(972) 387-8442",
@@ -257,6 +390,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Albondigas Soup",
+             "price": 6.75,
+             "description": "Meatball soup with onion, cilantro, served with flour tortillas on the side."
+           },
+           {
+             "item": "Pozole",
+             "price": 6.75,
+             "description": "Spicy pork and hominy soup, served with cabbage, cilantro and flour tortillas."
+           },
+           {
+             "item": "Tex-Mex Fajita Salad",
+             "price": 9.70,
+             "description": "Marinated flash grilled beef or chicken on mixed greens with tomatoes, salsa, sour cream and jack cheese."
+           },
+           {
+             "item": "Chorizo Taco",
+             "price": 5.75,
+             "description": "Three tacos filled with Mexican sausage."
+           },
+           {
+             "item": "Tilapia Tacos",
+             "price": 6.75,
+             "description": "Three tacos filled with fried fish and cabbage."
+           }
          ]
      },
      {
@@ -264,6 +423,7 @@
          "name": "The Social House",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/social_house.png",
          "category": "Bar and Grill",
+         "rating": 3,
          "contact": {
              "phone": "9723924300",
              "formattedPhone": "(972) 392-4300"
@@ -298,6 +458,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Dirty Goose",
+             "price": 13.00,
+             "description": "Grey Goose vodka and a splash of olive juice, garnished with two blue cheese olives."
+           },
+           {
+             "item": "Summer Rain",
+             "price": 12.50,
+             "description": "Dry Fly vodka, fresh lime juice and a splash of dry vermouth with a sugar rim and lime twist."
+           },
+           {
+             "item": "The Brazilian",
+             "price": 13.00,
+             "description": "Brazilian cachaca, fresh strawberries, Martinique sugar cane syrup, grapefruit juice and lime."
+           },
+           {
+             "item": "Madame Alexander",
+             "price": 12.00,
+             "description": "Grey Goose Le Citron, Grand Marnier and Sauvignon Blanc, garnished with frozen white grapes."
+           },
+           {
+             "item": "Ultimate Margarita",
+             "price": 12.75,
+             "description": "Milagro select barrel reserve tequila, sugar cane syrup, triple sec and fresh lime juice."
+           }
          ]
      },
      {
@@ -306,6 +492,7 @@
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/chuys.png",
          "category": "Tex Mex",
          "contact": null,
+         "rating": 8,
          "location": {
              "address": "4440 Belt Line Rd",
              "lat": 32.95374271930925,
@@ -336,6 +523,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Carne Asada Taco",
+             "price": 7.00,
+             "description": "Three tacos filled with grilled steak."
+           },
+           {
+             "item": "Chicken Taco",
+             "price": 6.50,
+             "description": "Three tacos filled with grilled chicken."
+           },
+           {
+             "item": "Tacos al Pastor",
+             "price": 6.75,
+             "description": "Three tacos filled with spicy, marinated pork."
+           },
+           {
+             "item": "Tilapia Tacos",
+             "price": 6.00,
+             "description": "Three tacos filled with fried fish and cabbage."
+           },
+           {
+             "item": "Ultimate Margarita",
+             "price": 12.75,
+             "description": "Milagro select barrel reserve tequila, sugar cane syrup, triple sec and fresh lime juice."
+           }
          ]
      },
      {
@@ -343,6 +556,7 @@
          "name": "Flying Saucer Draught Emporium",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/flying_saucer.png",
          "category": "Tap House",
+         "rating": 10,
          "contact": {
              "phone": "9729917093",
              "formattedPhone": "(972) 991-7093"
@@ -378,6 +592,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "La Vie en Rose",
+             "price": 7.00,
+             "description": "Moet et Chandon Brut Rose, gin, fresh raspberries and fresh lemon juice."
+           },
+           {
+             "item": "Melon Bowl",
+             "price": 8.50,
+             "description": "Skyy Vanilla vodka and passion fruit nectar blended with watermelon puree."
+           },
+           {
+             "item": "Ultimate Margarita",
+             "price": 7.75,
+             "description": "Milagro select barrel reserve tequila, sugar cane syrup, triple sec and fresh lime juice."
+           },
+           {
+             "item": "Key Lime Twist",
+             "price": 6.00,
+             "description": "Vodka, rum, lime and pineapple juice."
+           },
+           {
+             "item": "Sex on the Sands",
+             "price": 8.75,
+             "description": "Raspberry vodka, Chambord, sour mix and cranberry juice."
+           }
          ]
      },
      {
@@ -385,6 +625,7 @@
          "name": "Whole Foods Market",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/whole_foods.png",
          "category": "Prepared Eats",
+         "rating": 5,
          "contact": {
              "phone": "2148543334",
              "formattedPhone": "(214) 854-3334",
@@ -421,6 +662,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Bleu Chicken Salad",
+             "price": 9.25,
+             "description": "Mesclun greens, apple, grilled chicken, gorgonzola cheese, balsamic vinaigrette."
+           },
+           {
+             "item": "Curry Turkey Wrap",
+             "price": 7.75,
+             "description": "Smoked turkey, mozzarella, black olives & curried mayo in a curried spinach wrap."
+           },
+           {
+             "item": "Chicken Salad Croissant",
+             "price": 8.75,
+             "description": "House-made chicken salad with lettuce & tomato on a warm, flaky croissant."
+           },
+           {
+             "item": "Mixed Greens",
+             "price": 8.25,
+             "description": "Mixed greens, cucumber, tomatoes, cheese and a vinaigrette."
+           },
+           {
+             "item": "Fruit Salad",
+             "price": 6.75,
+             "description": "An assortment of fresh, seasonal fruits."
+           }
          ]
      },
      {
@@ -428,6 +695,7 @@
          "name": "The Londoner",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/the_londoner.png",
          "category": "Pub",
+         "rating": 4,
          "contact": {
              "phone": "9724582444",
              "formattedPhone": "(972) 458-2444"
@@ -463,6 +731,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Dirty Goose",
+             "price": 13.00,
+             "description": "Grey Goose vodka and a splash of olive juice, garnished with two blue cheese olives."
+           },
+           {
+             "item": "Summer Rain",
+             "price": 12.50,
+             "description": "Dry Fly vodka, fresh lime juice and a splash of dry vermouth with a sugar rim and lime twist."
+           },
+           {
+             "item": "The Brazilian",
+             "price": 13.00,
+             "description": "Brazilian cachaca, fresh strawberries, Martinique sugar cane syrup, grapefruit juice and lime."
+           },
+           {
+             "item": "Madame Alexander",
+             "price": 12.00,
+             "description": "Grey Goose Le Citron, Grand Marnier and Sauvignon Blanc, garnished with frozen white grapes."
+           },
+           {
+             "item": "Ultimate Margarita",
+             "price": 12.75,
+             "description": "Milagro select barrel reserve tequila, sugar cane syrup, triple sec and fresh lime juice."
+           }
          ]
      },
      {
@@ -470,6 +764,7 @@
          "name": "The Original Pancake House",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/original_pancake_house.png",
          "category": "Coffee and Breakfast",
+         "rating": 7,
          "contact": {
              "phone": "9723856468",
              "formattedPhone": "(972) 385-6468"
@@ -505,6 +800,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Ristretto",
+             "price": 2.00,
+             "description": "A shot of espresso coffee."
+           },
+           {
+             "item": "Americano",
+             "price": 2.50,
+             "description": "Diluted espresso with hot water."
+           },
+           {
+             "item": "The Brazilian",
+             "price": 13.00,
+             "description": "Brazilian cachaca, fresh strawberries, Martinique sugar cane syrup, grapefruit juice and lime."
+           },
+           {
+             "item": "Cappuccino",
+             "price": 3.50,
+             "description": "Shots of espresso with a dollop of foam."
+           },
+           {
+             "item": "Java Express",
+             "price": 3.50,
+             "description": "Blended coffee beans and mocha."
+           }
          ]
      },
      {
@@ -512,6 +833,7 @@
          "name": "Thai Star",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/thai_star.png",
          "category": "Thai",
+         "rating": 9,
          "contact": {
              "phone": "9729916334",
              "formattedPhone": "(972) 991-6334"
@@ -547,6 +869,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Gang Karee",
+             "price": 9.25,
+             "description": "Mild curry with coconut milk, potatoes, zucchini and carrots."
+           },
+           {
+             "item": "Butternut Squash Curry",
+             "price": 8.95,
+             "description": "Butternut squash, coconut milk, peas and carrots in a mild curry."
+           },
+           {
+             "item": "Red Curry",
+             "price": 8.00,
+             "description": "Spicy red curry with coconut milk, bamboo shoots, bell pepper and basil leaves."
+           },
+           {
+             "item": "Yellow Curry",
+             "price": 8.25,
+             "description": "Mild yellow curry with coconut milk, potatoes, carrots and onions."
+           },
+           {
+             "item": "Massamun Curry",
+             "price": 9.95,
+             "description": "Traditional, spicy curry with coconut milk, peanut, carrots and potatoes."
+           }
          ]
      },
      {
@@ -554,6 +902,7 @@
          "name": "In-N-Out Burger",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/in_n_out_burger.png",
          "category": "Fast Food Burgers",
+         "rating": 2,
          "contact": {
              "phone": "8007861000",
              "formattedPhone": "(800) 786-1000",
@@ -590,6 +939,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "The Classic Burger",
+             "price": 7.50,
+             "description": "Classic American Burger with bacon, cheese, and lettuce."
+           },
+           {
+             "item": "Hickory Burger",
+             "price": 9.90,
+             "description": "Topped with cheddar cheese, hickory-smoked bacon and smoky bbq sauce."
+           },
+           {
+             "item": "Wild Swiss Mushroom Burger",
+             "price": 9.95,
+             "description": "Topped with melted Swiss, three types of mushrooms and caramelized onions."
+           },
+           {
+             "item": "Kalamata Olive Veggie Burger",
+             "price": 8.95,
+             "description": "Veggie burger topped with Kalamata olives, yogurt, green onions and feta cheese."
+           },
+           {
+             "item": "Fries",
+             "price": 5.75,
+             "description": "Served hot, fresh and ready to share."
+           }
          ]
      },
      {
@@ -597,6 +972,7 @@
          "name": "Buffalo Wild Wings",
          "backgroundImageURL": "http://sandbox.bottlerocketapps.com/BR_iOS_CodingExam_2015_Server/Images/buffalo_wild_wings.png",
          "category": "Wing Joint",
+         "rating": 7,
          "contact": {
              "phone": "9727019464",
              "formattedPhone": "(972) 701-9464",
@@ -633,6 +1009,32 @@
                  "price": 6.50,
                  "description": "A good choice for vegetarians."
              }
+         ],
+         "menu": [{
+             "item": "Whiskey Baby Back Ribs",
+             "price": 10.95,
+             "description": "Marinated and cooked in a whiskey barbeque sauce, served with a side of coleslaw."
+           },
+           {
+             "item": "Shrimp Cilantro Wrap",
+             "price": 8.25,
+             "description": "With shrimp, avocado, mixed greens, salsa, cilantro and mayo in a sun dried tomato tortilla."
+           },
+           {
+             "item": "Grilled Pork Tenderloin",
+             "price": 12.95,
+             "description": "Thin-cut, juicy tenderloins glazed with red Thai curry and coriander, served with steamed jasmine rice and vegetables."
+           },
+           {
+             "item": "Microbrew Battered Halibut",
+             "price": 8.95,
+             "description": "With sweet potato chips, house-made slaw & tartar sauce."
+           },
+           {
+             "item": "Fries",
+             "price": 5.75,
+             "description": "Served hot, fresh and ready to share."
+           }
          ]
      }
  ]
